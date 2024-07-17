@@ -1,0 +1,68 @@
+/*styling of the header*/
+.heading{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+    margin-top: 100px;
+}
+.logo{
+    font-size: 24px;
+    color:#F9FAF8;
+}
+.text{
+    font-size: 18px;
+    color:#ccced3;
+}
+.button button{
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    padding:12px 28px;
+}
+.button button:hover{
+    background-color: white;
+    color: blue;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    height:auto;
+    width: 300px;
+    margin-top: 100px;
+}
+/* Stying of header ends*/
+
+
+/*organisation of header*/
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding:20px 150px 100px 150px;
+}
+.subtext{
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding:0 ;
+    gap:15px;
+    color:#ccced3;
+}
+/*Organisation of header ends*/
