@@ -1,6 +1,8 @@
 .landing-page{
     padding:0px;
 }
+
+
 /*STYLING of HEADER STARTS*/
 .heading{
     font-size: 48px;
@@ -37,7 +39,6 @@
 }
 /* STYLING of HEADER ENDS*/
 
-
 /*ORGANISATION of HEADER STARTS*/
 .header{
     display: flex;
@@ -70,9 +71,11 @@
 }
 /*ORGANISATION of HEADER ENDS*/
 
+
+
 /*STYLING of BODY STARTS*/
 .body{
-    background-color: whitesmoke;
+    background-color: white;
 }
 .maintext{
     font-size: 36px;
@@ -107,3 +110,27 @@
 .maintext{
     margin:25px;
 }
+/*ORAGANISATION of BODY ENDS*/ 
+
+
+
+/*STYLING and ORGANISATION of QUOTATION STARTS*/
+.quotation{
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+    margin-top: 100px;
+}
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    text-align: left;
+}
+.sal{
+    font-size: 18px;
+    font-weight: bolder;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+/*STYLING and ORGANISATION of QUOTATION ENDS*/
