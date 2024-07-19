@@ -1,4 +1,7 @@
-/*styling of the header*/
+.landing-page{
+    padding:0px;
+}
+/*STYLING of HEADER STARTS*/
 .heading{
     font-size: 48px;
     font-weight: bolder;
@@ -27,15 +30,15 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-img{
+.header img{
     height:auto;
     width: 300px;
     margin-top: 100px;
 }
-/* Stying of header ends*/
+/* STYLING of HEADER ENDS*/
 
 
-/*organisation of header*/
+/*ORGANISATION of HEADER STARTS*/
 .header{
     display: flex;
     flex-direction: column;
@@ -65,4 +68,42 @@ img{
     gap:15px;
     color:#ccced3;
 }
-/*Organisation of header ends*/
+/*ORGANISATION of HEADER ENDS*/
+
+/*STYLING of BODY STARTS*/
+.body{
+    background-color: whitesmoke;
+}
+.maintext{
+    font-size: 36px;
+    font-weight: bolder;
+    color: black;
+}
+.boxtext{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+.box1,.box2,.box3,.box4{
+    border: 3px solid rgb(43, 103, 233);
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+/*STYLING of BODY ENDS*/
+
+/*ORGANISATION of BODY STARTS*/
+.body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    max-width: 150px;
+}
+.maintext{
+    margin:25px;
+}
