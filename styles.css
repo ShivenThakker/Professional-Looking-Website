@@ -172,3 +172,18 @@
     margin:100px 150px
 }
 /*ORAGANISATION OF END ENDS*/
+
+
+/*STYLING and ORGANISATION of FOOTER STARTS*/
+.footer{
+    background-color: #1F2937;
+    padding:20px 0px;
+}
+.foottext{
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*STYLING and ORGANISATION of FOOTER endS*/
